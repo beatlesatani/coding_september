@@ -4,3 +4,4 @@ Cost Function(Means squared error) = 1/nΣ(yi-(mxi+b))
 
 Gradient Descenct : an algorithm that finds best fit line for given training data set
 → find the place of m&b where MSE is mininmum
+like take derivative f'(x) = 0
