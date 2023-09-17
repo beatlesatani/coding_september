@@ -1,0 +1,6 @@
+#this is a notebook to review some basic concepts
+Cost Function(Means squared error) = 1/nΣ(yi-(mxi+b))
+#https://www.youtube.com/watch?v=vsWrXfO3wWw&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw&index=4
+
+Gradient Descenct : an algorithm that finds best fit line for given training data set
+→ find the place of m&b where MSE is mininmum
