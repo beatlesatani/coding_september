@@ -45,4 +45,10 @@ It is used to:
   #optimizer(https://qiita.com/omiita/items/1735c1d048fe5f611f80,)
     An optimizer is a function or an algorithm that adjusts the attributes of the neural network, such as weights and learning rates. 
     Thus, it helps in reducing the overall loss and improving accuracy.
-    (like trying gradient Descent multiple times to find best parameters, ADAM based on the Gradient Descent algorhitm.)
+    (like trying gradient Descent multiple times to find best parameters, ADAM based on the Gradient Descent algorithm.)
+
+
+The difference between neural network vs deep learning
+  deep learning is the technology that has hidden layers more in the neural network.
+  so, deep learning is the advanced one of neural network
+  deep learning algorithms are "CNN","RNN","LSTM","RNN"
