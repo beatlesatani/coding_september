@@ -22,7 +22,7 @@ In the second notebook (sentiment_analysis_2.ipynb), I decided to use transforme
 2. attention_mask
   Attention_mask is useful when we add padding to the input tokens. The attention mask tells us which input_ids correspond to padding. this sensor has binary values[0,1]. 0 means padded(null value),1 means value exists.
 
-
+ 
 
 
 In the last notebook (sentiment_analysis_2.ipynb), I decided to use pre_trained BERT model, not as only tokenizer but also classificaion_model
