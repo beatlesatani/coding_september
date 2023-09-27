@@ -4,6 +4,7 @@ My sentiment analysis web application takes a sentence as an input, and return t
 This sentiment analysis project consists of two parts.
 1. modeling part
 2. web application part
+
 ※As a practice of NLP, I worked on the text_classification model in the NLP_practice notebook.
 
 ## 1.modeling part
