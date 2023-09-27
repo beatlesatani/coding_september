@@ -30,5 +30,13 @@ After setting up the encoder, I worked on making classifier from the scratch. Ho
 In the last notebook (sentiment_analysis_2.ipynb), I decided to use pre_trained BERT model, not as only tokenizer but also classificaion_model. Data pre-processing method is exactly same with sencond notebook. In the building model part, I retrieved the pre_trained classification model named TFBertForSequenceClassification from huggingface. This classificier also takes input_ids and attention_masks as inputs.This model makes outcome which is called logits, the unnormalized scores or predictions. These logits represent the model's raw predictions for each class or category in your classification task. To get normalized probability, I applied softmax function. Thorugh the training process, the accuracy of this model is ????????????%. At the end, I saved and exported this model into google drive so that I can use it in a webapplication.
 
 ## 2.Web Application 
+   - in the web application process, I used flask
+   - A simple way to demo Flask apps from your machine. Makes your Flask apps running on localhost available over the internet via the excellent ngrok tool.
+
+   - 
+
+
+
+
 
 youtubeで動くところをリンク限定で見せる   
