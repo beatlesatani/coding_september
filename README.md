@@ -15,7 +15,8 @@ Here,I made three notebooks for making sentiment_analysis model,
 
 In the first notebook (sentiment_analysis_1.ipynb), I made sentiment analysis model based on the lecture video on Youtube. In this model, I applied pre_trained bert model(preprocessor, encoder). After that, I put embedding inputs into simple Neural Network Layers, and I trained the model with 10 epochs. However the accuracy was lower than 60%, which  was much lower than I expected. As a reason of this score, simple neural network layers were not enough to make good prediction. In addition just applying pre_trained bert encoder were not suitable.
 In the second notebook (sentiment_analysis_2.ipynb), I decided to use transformer library from Hugging-face. Hugging Face Transformers is an open-source framework for deep learning created by Hugging Face. It provides APIs and tools to download state-of-the-art pre-trained models and further tune them. From this library, I used pre_train tokenizer named bert-base-cased to set up embedding. In general, Classification model takes two inputs, input_id, attention_mask. 
-##### 1.Input_ids.
+
+1.Input_ids.
     dsrfghsdrfh
 
 
