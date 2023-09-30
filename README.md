@@ -17,7 +17,7 @@ Here,I made three notebooks for making the sentiment_analysis model,
 In the second notebook (sentiment_analysis_2.ipynb), I decided to use transformer library from Hugging-face. Hugging Face Transformers is an open-source framework for deep learning created by Hugging Face. It provides APIs and tools to download state-of-the-art pre-trained models and further tune them. From this library, I used pre_train tokenizer named bert-base-cased to set up embedding. In general, Classification model takes two inputs, input_id, attention_mask. 
 
 
-1.Input_ids.
+### 1.Input_ids.
     input_ids are simply the numeric representations of the tokens. Simply single words are converted into numerical value. In addition, there are special tokens exist,[SEP],[CLS],[PAD]. [SEP](token = 102) is added at the end of the sentence. [CLS] (token = 101)is added at the beginning of the sentence. [PAD](token = 0) means padding.
 
 1. attention_mask.
@@ -29,7 +29,7 @@ After setting up the encoder, I worked on making classifier from the scratch. Ho
 
 In the last notebook (sentiment_analysis_2.ipynb), I decided to use pre_trained BERT model, not as only tokenizer but also classificaion_model. Data pre-processing method is exactly same with sencond notebook. In the building model part, I retrieved the pre_trained classification model named TFBertForSequenceClassification from huggingface. This classificier also takes input_ids and attention_masks as inputs.This model makes outcome which is called logits, the unnormalized scores or predictions. These logits represent the model's raw predictions for each class or category in your classification task. To get normalized probability, I applied softmax function. Thorugh the training process, the accuracy of this model is ????????????%. At the end, I saved and exported this model into google drive so that I can use it in a webapplication.
 
-## 2.Web Application 
+### 2.Web Application 
    - in the web application process, I used flask ngrok. Flask enables to develop web application on google colab and run on a localhost over the internet with ngrok tool. This web applciation takes input from the user and predict the sentiment of each sentence.
 
 
