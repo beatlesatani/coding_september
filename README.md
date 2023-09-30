@@ -20,7 +20,7 @@ In the second notebook (sentiment_analysis_2.ipynb), I decided to use the transf
 - 1.Input_ids
     input_ids are simply the numeric representations of the tokens. Simply single words are converted into numerical value. In addition, there are special tokens exist,[SEP],[CLS],[PAD]. [SEP](token = 102) is added at the end of the sentence. [CLS] (token = 101)is added at the beginning of the sentence. [PAD](token = 0) means padding.
 
-- 1. Attention_mask
+- Attention_mask
   Attention_mask is useful when we add padding to the input tokens. The attention mask tells us which input_ids correspond to padding. this sensor has binary values[0,1]. 0 means padded(null value),1 means value exists.
 
 After setting up the encoder, I worked on making a classifier from scratch. However, it took too long time to train the model, so I gave up on making the original classifier.
@@ -33,6 +33,3 @@ In the last notebook (sentiment_analysis_2.ipynb), I decided to use a pre-traine
    - in the web application process, I used Flask ngrok. Flask enables to development of the web application on google colab and run on a local host over the internet with ngrok tool. This web application takes input sentences from the user and predicts the sentiment of each sentence.
 
 
-
-https://docs.github.com/ja/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
-youtubeで動くところをリンク限定で見せる   
